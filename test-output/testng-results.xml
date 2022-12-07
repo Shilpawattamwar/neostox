@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[reading data from excel....]]>
+    </line>
+    <line>
+      <![CDATA[reading data from excel....]]>
+    </line>
+    <line>
+      <![CDATA[sending mobileno.....]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signupbutton....]]>
+    </line>
+    <line>
+      <![CDATA[reading data from excel....]]>
+    </line>
+    <line>
+      <![CDATA[sending password......]]>
+    </line>
+    <line>
+      <![CDATA[getting actual userid]]>
+    </line>
+    <line>
+      <![CDATA[reading data from excel....]]>
+    </line>
+    <line>
+      <![CDATA[clicking on logout button.....]]>
+    </line>
+    <line>
+      <![CDATA[closing the browser....]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-07T20:51:05 IST" name="Default suite" finished-at="2022-12-07T20:51:34 IST" duration-ms="29046">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T20:51:05 IST" name="Default test" finished-at="2022-12-07T20:51:34 IST" duration-ms="29046">
+      <class name="neostoxValidateTC.ValidateUsernametc">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:neostoxValidateTC.ValidateUsernametc@59505b48]" started-at="2022-12-07T20:51:05 IST" name="openbrowser" finished-at="2022-12-07T20:51:17 IST" duration-ms="11920" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[reading data from excel....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:neostoxValidateTC.ValidateUsernametc@59505b48]" started-at="2022-12-07T20:51:17 IST" name="logintoapp" finished-at="2022-12-07T20:51:33 IST" duration-ms="16027" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[reading data from excel....]]>
+            </line>
+            <line>
+              <![CDATA[sending mobileno.....]]>
+            </line>
+            <line>
+              <![CDATA[clicking on signupbutton....]]>
+            </line>
+            <line>
+              <![CDATA[reading data from excel....]]>
+            </line>
+            <line>
+              <![CDATA[sending password......]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoapp -->
+        <test-method signature="validateusernamem()[pri:0, instance:neostoxValidateTC.ValidateUsernametc@59505b48]" started-at="2022-12-07T20:51:33 IST" name="validateusernamem" finished-at="2022-12-07T20:51:33 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[getting actual userid]]>
+            </line>
+            <line>
+              <![CDATA[reading data from excel....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateusernamem -->
+        <test-method is-config="true" signature="logoutfromappli()[pri:0, instance:neostoxValidateTC.ValidateUsernametc@59505b48]" started-at="2022-12-07T20:51:33 IST" name="logoutfromappli" finished-at="2022-12-07T20:51:33 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on logout button.....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutfromappli -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:neostoxValidateTC.ValidateUsernametc@59505b48]" started-at="2022-12-07T20:51:33 IST" name="closebrowser" finished-at="2022-12-07T20:51:34 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing the browser....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- neostoxValidateTC.ValidateUsernametc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
