@@ -12,6 +12,7 @@ public class Factorialno {
 		System.out.println("enter any number");
 		
 		int num=sc.nextInt();
+		
 		int mult=1;
 		
 		for(int i=num;i>0;i--) 

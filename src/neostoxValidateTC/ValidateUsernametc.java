@@ -54,6 +54,8 @@ public class ValidateUsernametc extends neostoxBase{
 	{
 		us.entermobileno(neostoxUtility.readdatafromexcel(2, 0));
 		
+		
+		
 		us.signupbuttonclick();
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 		pass.enterpasscode(neostoxUtility.readdatafromexcel(2, 1));
